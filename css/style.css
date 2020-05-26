@@ -1,7 +1,14 @@
 .a {
   height: 635px;
 }
-
+.hrline{
+  position: relative;
+  height:1px;
+  margin-left: auto;
+  margin-right: auto;
+  width:800px;
+  background-color: #6e6e6e;
+}
 .hello {
   text-align: center;
   position: relative;
@@ -226,15 +233,15 @@ a {
 }
 
 .eat {
-  display: block;
-  height: 8em;
-  margin: 0;
+  display: inline-block;
+  color: #DFDFDF;
+
+  font-size: 120px;
   margin-bottom: 1%;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
+  left: 47%;
   top: 0%;
-  left: 1%;
+
 }
 
 .gamediv {
@@ -257,8 +264,9 @@ a {
 
 .gdev {
   margin: 0;
+  color: #DFDFDF;
+  font-size: 120px;
   display: block;
-  height: 9em;
   position: absolute;
   float: left;
   top: 2%;
@@ -267,7 +275,9 @@ a {
 
 .wdev {
   display: block;
-  height: 8em;
+  color: #DFDFDF;
+  font-size: 120px;
+  top: 5px;
   position: absolute;
   float: right;
   right: 24%;
@@ -276,10 +286,10 @@ a {
 
 .eatdev {
   display: block;
-  margin: 0;
+  position: relative;
   margin-top: 5%;
-  margin-right: 6%;
-  margin-left: 6%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .d {
