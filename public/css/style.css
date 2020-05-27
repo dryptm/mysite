@@ -151,7 +151,7 @@ h3 {
   position: relative;
 }
 
-.skills {
+.aboutme {
   font-family: 'Nunito', sans-serif;
   margin: 0;
   font-weight: lighter;
@@ -295,6 +295,27 @@ a {
   margin-left: auto;
 }
 
+.skills {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  font-weight: lighter;
+  color: #DFDFDF;
+  text-align: center;
+  display: block;
+  position: relative;
+  top: 10%;
+  font-size: 50px;
+}
+
+.skillssection{
+  width:70%;
+  height:70%;
+  top: 10%;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
 .extraspace{
   height:0px;
   background-color: white;
@@ -308,6 +329,60 @@ a {
   display: block;
   margin: 0;
   position: relative;
+}
+.sticker{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}
+.ue{
+  left:45%;
+  top:35%;
+}
+.react{
+  left: 65%;
+  top: 63%;
+}
+.nodejs{
+  left: 75%;
+  top:42%;
+}
+.mongodb{
+  left: 22%;
+  top: 42%;
+}
+.maya{
+  left: 93%;
+  top: 43%;
+}
+.js{
+  left: 49.5%;
+  top: 80%;
+}
+.html{
+  left: 49%;
+  top: 10%;
+}
+.firebase{
+  left: 34%;
+  top: 63%;
+}
+.css{
+  left: 65%;
+  top: 25%;
+  
+}
+.cpp{
+  left: 34%;
+  top: 25%;
+}
+.bootstrap{
+  left: 10%;
+  top: 22%;
+}
+.audacity{
+  left: 12.5% ;
+  top: 64%;
 }
 
 .d {
@@ -637,7 +712,7 @@ body {
     position: relative;
   }
 
-  .skills {
+  .aboutme {
     font-family: 'Nunito', sans-serif;
     margin: 0;
     font-weight: lighter;
