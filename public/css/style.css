@@ -82,7 +82,7 @@ p {
   position: relative;
   top: 20%;
   font-family: 'Nunito', sans-serif;
-  color: #BCBCBC;
+  color:#AAAAAA;
   font-size: 18px;
 }
 
@@ -293,6 +293,21 @@ a {
   margin-top: 5%;
   margin-right: auto;
   margin-left: auto;
+}
+
+.extraspace{
+  height:0px;
+  background-color: white;
+  display: block;
+  margin: 0;
+  position: relative;
+}
+
+.cSkills{
+  height:700px;
+  display: block;
+  margin: 0;
+  position: relative;
 }
 
 .d {
