@@ -319,7 +319,7 @@ a {
 
 .extraspace {
   height: 0px;
-  background-color: white;
+
   display: block;
   margin: 0;
   position: relative;
@@ -692,7 +692,7 @@ body {
     display: inline-block;
     position: absolute;
     top: 90%;
-    right: 47.5%;
+    right: 46.5%;
     width: 7%;
   }
 
@@ -743,19 +743,80 @@ body {
     text-align: center;
     display: block;
     position: relative;
-    top: 0%;
+    top: -50px;
     font-size: 90px;
+  }
+
+  a {
+    color: #AAAAAA;
+  }
+
+
+
+  .gamediv {
+    display: block;
+    position: relative;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    height: 500px;
+  }
+
+  .gdev {
+    color: #DFDFDF;
+    font-size: 100px;
+    position: absolute;
+    left: 43%;
+    margin-left: auto;
+    margin-right: auto;
+
   }
 
   .game {
     font-family: 'Baloo 2', sans-serif;
-    margin: 0;
     color: #BCBCBC;
+    display: block;
     text-align: center;
     position: relative;
-    top: 2%;
-    margin-left: 40%;
-    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 34px;
+    top: 120px;
+
+  }
+
+  .g {
+    text-align: center;
+    display: block;
+    margin: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    top: 120px;
+    font-family: 'Baloo 2', sans-serif;
+    color: #656565;
+    font-size: 30px;
+  }
+
+
+  .webdiv {
+    display: block;
+    position: relative;
+    margin: 0;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 370px;
+  }
+
+  .wdev {
+    color: #DFDFDF;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100px;
+    position: absolute;
+    left: 46%;
   }
 
   .web {
@@ -764,10 +825,42 @@ body {
     color: #BCBCBC;
     text-align: center;
     position: relative;
-    top: 9%;
-    margin-right: 48%;
+    top: 120px;
+    font-size: 34px;
+  }
 
-    font-size: 20px;
+  .w {
+    text-align: center;
+    display: block;
+    margin: 0;
+    margin-right: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    top: 121px;
+    font-family: 'Baloo 2', sans-serif;
+    color: #656565;
+    font-size: 30px;
+  }
+
+  .eatdev {
+    display: block;
+    position: relative;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .eat {
+    display: inline-block;
+    color: #DFDFDF;
+
+    font-size: 100px;
+    margin-bottom: 1%;
+    position: relative;
+    left: 47%;
+    top: 0%;
+
   }
 
   .challange {
@@ -777,31 +870,7 @@ body {
     text-align: center;
     position: relative;
     top: 4%;
-    font-size: 20px;
-  }
-
-  .g {
-    text-align: center;
-    display: block;
-    margin: 0;
-    margin-left: 40%;
-    position: relative;
-    top: 2%;
-    font-family: 'Baloo 2', sans-serif;
-    color: #656565;
-    font-size: 15px;
-  }
-
-  .w {
-    text-align: center;
-    display: block;
-    margin: 0;
-    margin-right: 48%;
-    position: relative;
-    top: 9%;
-    font-family: 'Baloo 2', sans-serif;
-    color: #656565;
-    font-size: 15px;
+    font-size: 34px;
   }
 
   .ch {
@@ -812,71 +881,7 @@ body {
     top: 4%;
     font-family: 'Baloo 2', sans-serif;
     color: #656565;
-    font-size: 17px;
-  }
-
-  a {
-    color: #AAAAAA;
-  }
-
-  .eat {
-    display: inline-block;
-    color: #DFDFDF;
-
-    font-size: 120px;
-    margin-bottom: 1%;
-    position: relative;
-    left: 47%;
-    top: 0%;
-
-  }
-
-  .gamediv {
-    display: block;
-    position: relative;
-    margin: 0;
-    margin-top: 4%;
-    margin-right: 6%;
-    margin-left: 6%;
-  }
-
-  .webdiv {
-    display: block;
-    position: relative;
-    margin: 0;
-    margin-top: 5%;
-    margin-right: 6%;
-    margin-left: 6%;
-  }
-
-  .gdev {
-    margin: 0;
-    color: #DFDFDF;
-    font-size: 120px;
-    display: block;
-    position: absolute;
-    float: left;
-    top: 2%;
-    margin-left: 15%;
-  }
-
-  .wdev {
-    display: block;
-    color: #DFDFDF;
-    font-size: 120px;
-    top: 5px;
-    position: absolute;
-    float: right;
-    right: 24%;
-    margin-left: 15%;
-  }
-
-  .eatdev {
-    display: block;
-    position: relative;
-    margin-top: 5%;
-    margin-right: auto;
-    margin-left: auto;
+    font-size: 30px;
   }
 
   .skills {
@@ -902,8 +907,7 @@ body {
   }
 
   .extraspace {
-    height: 0px;
-    background-color: white;
+    height: 300px;
     display: block;
     margin: 0;
     position: relative;
