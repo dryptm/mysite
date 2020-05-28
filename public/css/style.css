@@ -678,10 +678,11 @@ body {
     text-align: center;
     display: block;
     position: relative;
-    top: 20%;
     font-family: 'Nunito', sans-serif;
     color: #AAAAAA;
-    font-size: 18px;
+    font-size: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
   .rule {
@@ -699,12 +700,13 @@ body {
   hr {
     background-color: transparent;
     border-style: dotted none none none;
-    border-width: 8px;
+    border-width: 14px;
     border-color: #DFDFDF;
-    display: block;
-    position: relative;
-    top: 45%;
-    width: 3%;
+    display: inline-block;
+    position: absolute;
+    top: -50px;
+    right: 46.5%;
+    width: 7%;
   }
 
   body {
@@ -893,7 +895,7 @@ body {
     display: block;
     position: relative;
     top: 10%;
-    font-size: 50px;
+    font-size: 80px;
   }
 
   .skillssection {
@@ -902,7 +904,7 @@ body {
     top: 10%;
     display: block;
     position: relative;
-    margin-left: auto;
+    margin-left: 130px;
     margin-right: auto;
   }
 
@@ -926,67 +928,6 @@ body {
     position: absolute;
   }
 
-  .ue {
-    left: 45%;
-    top: 35%;
-  }
-
-  .react {
-    left: 65%;
-    top: 63%;
-  }
-
-  .nodejs {
-    left: 75%;
-    top: 42%;
-  }
-
-  .mongodb {
-    left: 22%;
-    top: 42%;
-  }
-
-  .maya {
-    left: 93%;
-    top: 43%;
-  }
-
-  .js {
-    left: 49.5%;
-    top: 80%;
-  }
-
-  .html {
-    left: 49%;
-    top: 10%;
-  }
-
-  .firebase {
-    left: 34%;
-    top: 63%;
-  }
-
-  .css {
-    left: 65%;
-    top: 25%;
-
-  }
-
-  .cpp {
-    left: 34%;
-    top: 25%;
-  }
-
-  .bootstrap {
-    left: 10%;
-    top: 22%;
-  }
-
-  .audacity {
-    left: 12.5%;
-    top: 64%;
-  }
-
   .d {
     display: block;
     margin: 0;
@@ -994,12 +935,13 @@ body {
     margin-bottom: 10%;
   }
 
+
   .freelance {
     margin: 0;
     margin-top: 8%;
     font-family: 'Caveat', cursive;
     font-weight: lighter;
-    font-size: 2.5em;
+    font-size: 70px;
     color: #DFDFDF;
     margin-bottom: 3%;
   }
