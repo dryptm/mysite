@@ -416,6 +416,16 @@ a {
   margin-bottom: 3%;
 }
 
+.freelanceP {
+  text-align: center;
+  display: block;
+  position: relative;
+  top: 20%;
+  font-family: 'Nunito', sans-serif;
+  color: #AAAAAA;
+  font-size: 18px;
+}
+
 button {
   display: block;
   position: relative;
@@ -935,10 +945,14 @@ body {
     margin-bottom: 10%;
   }
 
+  .contact {
+
+    height: 800px;
+  }
 
   .freelance {
     margin: 0;
-    margin-top: 8%;
+    margin-top: 100px;
     font-family: 'Caveat', cursive;
     font-weight: lighter;
     font-size: 70px;
@@ -946,17 +960,25 @@ body {
     margin-bottom: 3%;
   }
 
+  .freelanceP {
+    margin-top: 80px;
+    font-size: 30px;
+  }
+
+
   button {
     display: block;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
+    margin-top: 250px;
     font-family: 'Baloo 2', sans-serif;
-    font-size: 16px;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 100px;
     color: #121212;
-    height: 50px;
-    width: 180px;
+    height: 80px;
+    width: 250px;
     background-color: #BCBCBC;
     border-color: #BCBCBC;
     border-style: solid;
@@ -964,15 +986,6 @@ body {
 
   a {
     text-decoration: none;
-  }
-
-  .btn:hover {
-    background-color: #e1e1e1;
-    border-color: #121212;
-    border-radius: 50px;
-    transition: all 0.6s;
-    color: #121212;
-    font-size: 18px;
   }
 
   .btn:active {
@@ -996,12 +1009,13 @@ body {
     background-color: #0d0d0d;
     margin: 0;
     position: relative;
-    height: 100px;
+    height: 170px;
   }
 
   .instagram {
     font-family: 'Baloo 2', sans-serif;
     color: #AAAAAA;
+    font-size: 30px;
     display: inline-block;
     position: absolute;
     margin: 0;
@@ -1010,15 +1024,10 @@ body {
     text-decoration: none;
   }
 
-  .instagram:hover {
-    color: white;
-    transition: all 0.6s;
-  }
-
   .linkedin {
     font-family: 'Baloo 2', sans-serif;
     color: #BCBCBC;
-    ;
+    font-size: 30px;
     display: inline-block;
     position: absolute;
     margin: 0;
@@ -1027,15 +1036,10 @@ body {
     text-decoration: none;
   }
 
-  .linkedin:hover {
-    color: white;
-    transition: all 0.6s;
-  }
-
   .youtube {
     font-family: 'Baloo 2', sans-serif;
     color: #BCBCBC;
-    ;
+    font-size: 30px;
     display: inline-block;
     position: absolute;
     bottom: 0px;
@@ -1044,15 +1048,10 @@ body {
     text-decoration: none;
   }
 
-  .youtube:hover {
-    color: white;
-    transition: all 0.6s;
-  }
-
   .hire {
     font-family: 'Baloo 2', sans-serif;
     color: #BCBCBC;
-    ;
+    font-size: 30px;
     display: inline-block;
     position: absolute;
     bottom: 0px;
@@ -1061,17 +1060,12 @@ body {
     text-decoration: none;
   }
 
-  .hire:hover {
-    color: white;
-    transition: all 0.6s;
-  }
-
   .redirect {
-    height: 50px;
+    height: 90px;
     position: relative;
     margin: 0;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
   .copyright {
@@ -1081,11 +1075,11 @@ body {
     color: #BCBCBC;
     margin-left: 10%;
     margin-right: 10%;
-    top: 170%;
+    top: 140px;
   }
 
   .rights {
-    font-size: 10px;
+    font-size: 20px;
     position: relative;
     display: block;
     margin: 0;
@@ -1095,12 +1089,6 @@ body {
 
   body {
     background-color: #121212;
-  }
-
-
-  .copy:hover {
-    transition: all 0.6s;
-    color: white;
   }
 
 
