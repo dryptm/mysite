@@ -12,50 +12,32 @@
     background-color: #a5a5a5
 }
 
-.hello {
-    text-align: center;
-    position: relative;
-    top: 30%;
-    font-family: 'Liu Jian Mao Cao', cursive;
-    color: #dfdfdf;
-    font-size: 6vh;
-    font-weight: lighter
-}
 
 .name {
-    font-family: Caveat, cursive;
+    font-family: 'Bree Serif', serif;
     margin-block-start: 0;
     font-weight: lighter;
     color: #dfdfdf;
     text-align: center;
     position: relative;
     top: 30%;
-    font-size: 10vh
+    font-size: 20vh
 }
 
 .dev {
-    font-family: Caveat, cursive;
+    font-family: 'Gentium Book Basic', serif;
     margin-block-start: 0;
-    font-weight: lighter;
+    font-weight: 100;
     color: #dfdfdf;
     text-align: center;
     position: relative;
-    top: 19%;
-    font-size: 6vh
+    top: 0%;
+    font-size: 6vh;
 }
 
-.span {
-    font-family: Caveat, cursive;
-    margin: 0;
-    font-weight: 700;
-    color: #dfdfdf;
-    text-align: center;
-    position: relative;
-    font-size: 8vh
-}
 
 .hi {
-    font-family: Nunito, sans-serif;
+    font-family: 'Bree Serif', serif;
     font-size: 35px;
     color: #dfdfdf;
     font-weight: lighter;
@@ -64,8 +46,14 @@
     margin: 0
 }
 
+.describe-p {
+    font-family: 'Poppins', sans-serif;
+
+    color: #d6d6d6;
+}
+
 .span1 {
-    font-family: Caveat, cursive;
+    font-family: 'Bree Serif', serif;
     margin-block-start: 0;
     font-weight: bolder;
     color: #dfdfdf;
@@ -76,11 +64,11 @@
 }
 
 p {
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     display: block;
     position: relative;
     top: 20%;
-    font-family: Nunito, sans-serif;
     color: #aaa;
     font-size: 18px
 }
@@ -124,13 +112,15 @@ h1 {
 }
 
 .pic1 {
-    height: 150px;
-    width: 150px;
+    font-size: 100px;
     display: block;
+    color: #DFDFDF;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: 19%
+    top: 18%;
+
 }
 
 h3 {
@@ -150,7 +140,7 @@ h3 {
 }
 
 .aboutme {
-    font-family: Nunito, sans-serif;
+    font-family: 'Bree Serif', serif;
     margin: 0;
     font-weight: lighter;
     color: #dfdfdf;
@@ -162,7 +152,7 @@ h3 {
 }
 
 .game {
-    font-family: 'Baloo 2', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     color: #bcbcbc;
     text-align: left;
@@ -173,7 +163,7 @@ h3 {
 }
 
 .web {
-    font-family: 'Baloo 2', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     color: #bcbcbc;
     text-align: right;
@@ -184,7 +174,7 @@ h3 {
 }
 
 .challange {
-    font-family: 'Baloo 2', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     color: #bcbcbc;
     text-align: center;
@@ -200,9 +190,9 @@ h3 {
     margin-left: 40%;
     position: relative;
     top: 2%;
-    font-family: 'Baloo 2', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #656565;
-    font-size: 15px
+    font-size: 17px;
 }
 
 .w {
@@ -212,9 +202,9 @@ h3 {
     margin-right: 48%;
     position: relative;
     top: 9%;
-    font-family: 'Baloo 2', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #656565;
-    font-size: 15px
+    font-size: 17px;
 }
 
 .ch {
@@ -223,7 +213,7 @@ h3 {
     margin: 0;
     position: relative;
     top: 4%;
-    font-family: 'Baloo 2', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #656565;
     font-size: 17px
 }
@@ -291,7 +281,7 @@ a {
 }
 
 .skills {
-    font-family: Nunito, sans-serif;
+    font-family: 'Bree Serif', serif;
     margin: 0;
     font-weight: lighter;
     color: #dfdfdf;
@@ -407,7 +397,7 @@ a {
 .freelance {
     margin: 0;
     margin-top: 8%;
-    font-family: Caveat, cursive;
+    font-family: 'Satisfy', cursive;
     font-weight: lighter;
     font-size: 2.5em;
     color: #dfdfdf;
@@ -419,7 +409,7 @@ a {
     display: block;
     position: relative;
     top: 20%;
-    font-family: Nunito, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #aaa;
     font-size: 18px
 }
@@ -430,10 +420,11 @@ a {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
-    font-family: 'Baloo 2', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     color: #121212;
     height: 50px;
+    font-weight: bolder;
     transition: all .6s;
     width: 180px;
     background-color: #bcbcbc;
@@ -587,7 +578,7 @@ body {
 
     .hrline {
         position: relative;
-        height: 1px;
+        height: 1.5px;
         margin-left: auto;
         margin-right: auto;
         width: 800px;
@@ -595,46 +586,27 @@ body {
         background-color: #dfdfdf
     }
 
-    .hello {
-        text-align: center;
-        position: relative;
-        top: 30%;
-        font-family: 'Liu Jian Mao Cao', cursive;
-        color: #dfdfdf;
-        font-size: 6vh;
-        font-weight: lighter
-    }
 
     .name {
-        font-family: Caveat, cursive;
+        font-family: 'Bree Serif', serif;
         margin-block-start: 0;
         font-weight: lighter;
         color: #dfdfdf;
         text-align: center;
         position: relative;
-        top: 30%;
+        top: 35%;
         font-size: 10vh
     }
 
     .dev {
-        font-family: Caveat, cursive;
+        font-family: 'Gentium Book Basic', serif;
         margin-block-start: 0;
         font-weight: lighter;
         color: #dfdfdf;
         text-align: center;
         position: relative;
-        top: 19%;
-        font-size: 6vh
-    }
-
-    .span {
-        font-family: Caveat, cursive;
-        margin: 0;
-        font-weight: 700;
-        color: #dfdfdf;
-        text-align: center;
-        position: relative;
-        font-size: 8vh
+        top: 25%;
+        font-size: 4vh;
     }
 
     .b {
@@ -644,19 +616,18 @@ body {
     }
 
     .pic1 {
-        height: 20vh;
-        width: 20vh;
+        font-size: 200px;
         display: block;
         margin-left: auto;
         margin-right: auto;
         position: relative;
-        top: 25%
+        top: 20%;
+        height: 11%;
     }
 
     .hi {
-        font-family: Nunito, sans-serif;
         font-size: 5vh;
-        top: 27%;
+        top: 25%;
         color: #dfdfdf;
         font-weight: lighter;
         display: block;
@@ -666,13 +637,13 @@ body {
 
     .describe-p {
         font-size: 2.6vh;
-        top: 25%
+        top: 23%
     }
 
     .span1 {
-        font-family: Caveat, cursive;
+
         margin-block-start: 0;
-        font-weight: bolder;
+        font-weight: lighter;
         color: #dfdfdf;
         text-align: center;
         position: relative;
@@ -740,7 +711,6 @@ body {
     }
 
     .aboutme {
-        font-family: Nunito, sans-serif;
         margin: 0;
         font-weight: lighter;
         color: #dfdfdf;
@@ -774,7 +744,6 @@ body {
     }
 
     .game {
-        font-family: 'Baloo 2', sans-serif;
         color: #bcbcbc;
         display: block;
         text-align: center;
@@ -786,6 +755,7 @@ body {
     }
 
     .g {
+        font-family: 'Baloo 2', sans-serif;
         text-align: center;
         display: block;
         margin: 0;
@@ -793,7 +763,6 @@ body {
         margin-right: 5%;
         position: relative;
         top: 120px;
-        font-family: 'Baloo 2', sans-serif;
         color: #656565;
         font-size: 30px
     }
@@ -819,7 +788,6 @@ body {
     }
 
     .web {
-        font-family: 'Baloo 2', sans-serif;
         margin: 0;
         color: #bcbcbc;
         text-align: center;
@@ -829,6 +797,7 @@ body {
     }
 
     .w {
+        font-family: 'Baloo 2', sans-serif;
         text-align: center;
         display: block;
         margin: 0;
@@ -837,7 +806,6 @@ body {
         margin-right: 5%;
         position: relative;
         top: 121px;
-        font-family: 'Baloo 2', sans-serif;
         color: #656565;
         font-size: 30px
     }
@@ -861,7 +829,6 @@ body {
     }
 
     .challange {
-        font-family: 'Baloo 2', sans-serif;
         margin: 0;
         color: #bcbcbc;
         text-align: center;
@@ -871,18 +838,18 @@ body {
     }
 
     .ch {
+        font-family: 'Baloo 2', sans-serif;
         text-align: center;
         display: block;
         margin: 0;
         position: relative;
         top: 4%;
-        font-family: 'Baloo 2', sans-serif;
         color: #656565;
         font-size: 30px
     }
 
     .skills {
-        font-family: Nunito, sans-serif;
+
         margin: 0;
         font-weight: lighter;
         color: #dfdfdf;
@@ -937,7 +904,6 @@ body {
     .freelance {
         margin: 0;
         margin-top: 100px;
-        font-family: Caveat, cursive;
         font-weight: lighter;
         font-size: 70px;
         color: #dfdfdf;
@@ -954,7 +920,6 @@ body {
         position: relative;
         margin: auto;
         margin-top: 300px;
-        font-family: 'Baloo 2', sans-serif;
         font-size: 2vh;
         font-weight: 700;
         border-radius: 100px;
@@ -975,7 +940,7 @@ body {
         position: relative;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 250px;
+        margin-top: 315px;
         margin-bottom: 5%;
         font-family: 'Baloo 2', sans-serif;
         font-size: 15px;
@@ -995,7 +960,6 @@ body {
     }
 
     .instagram {
-        font-family: 'Baloo 2', sans-serif;
         color: #aaa;
         font-size: 30px;
         display: inline-block;
@@ -1007,7 +971,6 @@ body {
     }
 
     .linkedin {
-        font-family: 'Baloo 2', sans-serif;
         color: #bcbcbc;
         font-size: 30px;
         display: inline-block;
@@ -1019,7 +982,6 @@ body {
     }
 
     .youtube {
-        font-family: 'Baloo 2', sans-serif;
         color: #bcbcbc;
         font-size: 30px;
         display: inline-block;
@@ -1031,7 +993,6 @@ body {
     }
 
     .hire {
-        font-family: 'Baloo 2', sans-serif;
         color: #bcbcbc;
         font-size: 30px;
         display: inline-block;
@@ -1071,5 +1032,24 @@ body {
 
     body {
         background-color: #121212
+    }
+}
+
+@media(max-width:1000px)and (orientation:landscape) {
+    .hrline {
+        height: 1.5px;
+    }
+
+    .g {
+        font-size: 15px
+    }
+
+    .w {
+
+        font-size: 15px
+    }
+
+    .ch {
+        font-size: 15px
     }
 }
