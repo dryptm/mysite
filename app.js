@@ -1,8 +1,9 @@
 const express = require("express");
 const bodyparser = require("body-parser");
-
+const compression=require("compression");
 
 const app = express();
+app.use(compression());
 app.use(bodyparser.urlencoded({
     extended: true
 }));

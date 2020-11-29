@@ -96,6 +96,25 @@ hr {
     width: 3%
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0px 0px 0px;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #656565;
+    border-radius: 5px;
+}
+
+
 body {
     margin: 0
 }
@@ -108,7 +127,8 @@ h1 {
 .b {
     background-color: #121212;
     position: relative;
-    height: 120vh
+    height: 120vh;
+    text-align: center;
 }
 
 .pic1 {
@@ -586,6 +606,23 @@ body {
         background-color: #dfdfdf
     }
 
+    /* width */
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0px 0px 0px;
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #656565;
+        border-radius: 5px;
+    }
 
     .name {
         font-family: 'Bree Serif', serif;
@@ -606,13 +643,14 @@ body {
         text-align: center;
         position: relative;
         top: 25%;
-        font-size: 4vh;
+        font-size: 5.856266vh;
     }
 
     .b {
         background-color: #121212;
         position: relative;
-        height: 120vh
+        height: 120vh;
+        text-align: center;
     }
 
     .pic1 {
